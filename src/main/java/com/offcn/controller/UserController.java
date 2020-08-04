@@ -31,6 +31,12 @@ public class UserController {
     //点击添加按钮，跳转至用户添加页面
     @RequestMapping("/toAdd")
     public String toAdd(){
+		
+		//这是小王添加的代码
+		for(int i=0; i<10; i++){
+			System.out.println(i);
+		}
+		
         return "user/userAdd";
     }
 
