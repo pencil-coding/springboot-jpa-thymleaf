@@ -30,6 +30,11 @@ public class UserController {
     //点击添加按钮，跳转至用户添加页面
     @RequestMapping("/toAdd")
     public String toAdd(){
+
+        for (int i = 0; i < 20; i++) {
+            System.out.println("小丽更改的代码");
+        }
+
         return "user/userAdd";
     }
 
