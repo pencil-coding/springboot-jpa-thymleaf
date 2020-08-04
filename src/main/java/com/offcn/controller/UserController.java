@@ -2,7 +2,6 @@ package com.offcn.controller;
 
 import com.offcn.pojo.User;
 import com.offcn.service.UserService;
-import com.sun.org.apache.xpath.internal.operations.Mod;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
